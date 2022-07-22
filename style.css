@@ -1,36 +1,37 @@
-/* *
-    box-sizing: border-box;
-    outline: 1px solid limegreen !important;
-    /* background: rgb(0 100 0 / 0.05) !important; 
 
- */
 body {
+    font-family: 'Nunito', sans-serif;
+    background: url(./images/fondo_papel.jpeg);
    /*  background: #3E5151;  
     background: -webkit-linear-gradient(to bottom, #DECBA4, #3E5151);  
     background: linear-gradient(to bottom, #DECBA4, #3E5151); 
-    background-repeat: no-repeat;
-    height: 100%; */
-    background: url(./images/fondo_papel.jpeg);
+    background-repeat: no-repeat; */
+    
 }
 .column{
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .avatar {
     width: 200px;
     height: auto;
     border-radius: 50%;
+    text-align: center;
 }
 
-div ul {
-    list-style: none;
-    margin-left: -30px;
-    
+.buttonsGroup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 900px;
 }
 
-ul li button {
+.socialButtons {
     color: #FFF;
-    font-size: 30px;
+    font-size: 20px;
     padding: 10px;
     border-radius: 30px;
     margin: 10px;
@@ -39,11 +40,36 @@ ul li button {
     border: 2px solid #fff;
     transition: all 400ms ease;
     text-align: center;
+    text-decoration: none;
 }
-
-ul li button:hover {
+.socialButtons:hover {
     background-color: #fff;
     color: #7e543c;
     border: 2px solid #7e543c;
 }
 
+footer {
+    margin-top: 50px;
+    color: #FFF;
+    text-align: center;
+    opacity: 0.5;
+    width: 100vp;
+
+}
+
+.textoLogo{
+    font-size: 25px;
+    margin: 3px;
+    font-weight: 800;
+    text-shadow: 2px 2px #fff;
+    text-align: center;
+}
+
+.descripcionPagina {
+    color: #fff;
+    text-shadow: 2px 2px #000000;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+    font-weight: 550;
+}
