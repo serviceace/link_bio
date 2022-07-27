@@ -54,7 +54,10 @@ footer {
     text-align: center;
     opacity: 0.5;
     width: 100vp;
-
+}
+.linkPorfolio {
+    text-decoration: underline overline dotted #fff;
+    color: #FFF;
 }
 
 .textoLogo{
